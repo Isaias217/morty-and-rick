@@ -55,3 +55,35 @@ transition: all 0.3 ease;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
 }
+
+.character{
+display: flex;
+gap: 15px;
+ font-family: arial
+}
+.character h2{
+    font-size: 32px;
+}
+.character p{
+font-size: 20px;
+}
+.character a{
+    text-decoration: none;
+    color: crimson;
+    font-weight: bold;
+    font-size: 20px;
+    transition: all 0.3 ease;
+}
+.character a:hover{
+    color: blue;
+}
+
+.hero--character{
+    height: auto;
+    padding: 100px;
+}
+
+#character--image {
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
