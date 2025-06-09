@@ -19,7 +19,7 @@ fetch("https://rickandmortyapi.com/api/character/" + id)
                 <h4>Locacion: ${json.location.name}</h4>
                 <h4>Origin: ${json.origin.name}</h4>
                 <h4>Especie: ${json.species}</h4>
-                    <div class="botton"><a href="index.html">Ir al Inicio</a></div>
+                    <div class="bot"><a href="index.html">Ir al Inicio</a></div>
             </div>
         </div
         `
